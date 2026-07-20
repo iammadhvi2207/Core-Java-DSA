@@ -38,6 +38,8 @@ public class MAPFUNCTIONS {
         map.remove(ch);
         System.out.println(map);
 
+        System.out.println("Map getOrDefault() : "+ map.getOrDefault('M',0));
+
         sc.close();
     }
     
